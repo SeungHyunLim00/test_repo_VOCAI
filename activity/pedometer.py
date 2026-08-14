@@ -3,7 +3,7 @@
 from datetime import datetime
 
 # 걸음으로 인정하는 가속도 크기 (g) — 낮을수록 작은 흔들림도 걸음으로 센다
-STEP_ACCEL_THRESHOLD_G = 1.1
+STEP_ACCEL_THRESHOLD_G = 0.8
 # 걸음 사이 최소 간격 (ms) — 이보다 짧으면 같은 걸음으로 본다
 MIN_STEP_GAP_MS = 250
 # 팔 흔들림이 없을 때(유모차·카트) 보조 판정 사용 여부
