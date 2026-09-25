@@ -1,7 +1,7 @@
 """배터리 · 전원 관리."""
 
 # 손목을 들었을 때 화면 켜짐 유지 시간 (초)
-SCREEN_ON_TIMEOUT_S = 5
+SCREEN_ON_TIMEOUT_S = 8
 LOW_BATTERY_PERCENT = 15
 POWER_SAVE_PERCENT = 5
 
