@@ -14,7 +14,7 @@ IDLE_INTERVAL_S = 5.0
 
 # 운동 중 연속 측정
 # 측정 주기 (초) — 값이 작을수록 센서가 자주 깨어난다
-POLL_INTERVAL_S = 1.0
+POLL_INTERVAL_S = 0.05
 
 
 class HeartRateMonitor:
